@@ -21,6 +21,6 @@ class Solution {
         int expectedSum = (n * n) * (n * n + 1) / 2;
         missing = expectedSum - actualSum + repeated;
 
-        return new int[]{repeated, missing};
+        return new int[ ]{repeated, missing};
     }
 }
